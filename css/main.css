@@ -38,14 +38,9 @@ a {
     color: #5E5E5E;
 }
 
-.container {
-    width: 1000px;
-    margin: 0px auto;
-}
-
 /* Header */
 
-#header {
+header {
     width: 1000px;
     height: 150px;
     margin: 0 auto;
@@ -194,30 +189,30 @@ a {
 
 /* Content */
 
-#content {
+main {
     float: right;
     width: 660px;
     padding: 0px 0px 0px 0px;
 }
 
-.post {
+article {
     overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
 
-.post .title {
+article .title {
     padding: 7px 0px 0px 0px;
     letter-spacing: -1px;
 }
 
-.post .title a {
+article .title a {
     border: none;
     text-decoration: none;
     color: #222222;
 }
 
-.post .meta {
+article .meta {
     margin-bottom: 30px;
     padding: 10px 0px 0px 0px;
     text-align: left;
@@ -226,15 +221,15 @@ a {
     font-weight: 300;
 }
 
-.post .meta .date {
+time {
     float: left;
 }
 
-.post .meta .posted {
+article .meta .posted {
     float: right;
 }
 
-.post .entry {
+article .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
 }
