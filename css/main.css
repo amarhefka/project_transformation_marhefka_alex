@@ -20,11 +20,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2.8em;
+    font-size: 3em;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 2.8em;
 }
 
 p, ul, ol {
@@ -188,27 +188,27 @@ aside {
     padding: 30px 0px 0px 0px;
 }
 
+aside section {
+    padding-bottom: 30px;
+}
+
 aside ul {
     padding: 0;
     list-style: none;
 }
 
-aside li ul {
-    padding-bottom: 30px;
-}
-
-aside li li {
+aside li {
     line-height: 40px;
     border-bottom: 1px solid #E7EBED;
     margin: 0px 0px;
 }
 
-aside li li a {
+aside li a {
     padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
-aside h2 {
+aside h3 {
     height: 38px;
     padding: 0px 0px 30px 0px;
     letter-spacing: -.5px;
@@ -235,4 +235,15 @@ footer p {
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
