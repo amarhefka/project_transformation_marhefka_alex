@@ -218,7 +218,8 @@ aside h2 {
 
 /* Footer */
 
-#footer {
+footer {
+    background: #050505 url(../img/img01.jpg) repeat;
     clear: both;
     height: 140px;
     margin: 0 auto;
@@ -226,7 +227,7 @@ aside h2 {
     font-family: 'Abel', sans-serif;
 }
 
-#footer p {
+footer p {
     padding-top: 10px;
     letter-spacing: 1px;
     line-height: normal;
