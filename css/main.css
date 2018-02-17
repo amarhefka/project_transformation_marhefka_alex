@@ -94,12 +94,9 @@ nav a:hover, nav .current_page_item a {
 }
 
 #banner {
+    display: block;
     margin: 0 auto;
     max-width: 1000px;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner img {
     width: 100%;
 }
 
