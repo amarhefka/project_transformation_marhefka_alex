@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -45,14 +54,11 @@ header {
 
 /* Logo */
 
-#logo {
-    float: left;
-}
-
 #logo h1 {
     line-height: 2.4em;
     letter-spacing: -.03em;
     font-size: 3.8em;
+    text-align: center;
 }
 
 #logo h1 a {
@@ -63,31 +69,21 @@ header {
 
 /* Menu */
 
-nav {
-    float: right;
-}
-
 nav ul {
-    float: right;
-    padding: 1em 0em 0em 0em;
+    padding: 0.5em 0em;
     list-style: none;
-}
-
-nav li {
-    float: left;
 }
 
 nav a {
     display: block;
-    line-height: 6.5em;
-    margin-right: .15em;
+    line-height: 2.75em;
     padding: 0em 1.5em 0em 1.5em;
     text-decoration: none;
     text-align: center;
     text-shadow: .06em .06em 0em rgba(0,0,0,.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.15em;
+    font-size: 1.25em;
     font-weight: 300;
     color: #1f1f1f;
 }
@@ -101,6 +97,10 @@ nav a:hover, nav .current_page_item a {
     margin: 0 auto;
     max-width: 1000px;
     background: url(../img/img03.png) no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
 }
 
 /* Page */
