@@ -64,7 +64,7 @@ header {
 #logo h1 a {
     text-decoration: none;
     color: #1f1f1f;
-    text-shadow: .02em .02em 0em rgba(0,0,0,.2);
+    text-shadow: .03em .03em 0em rgba(0,0,0,.2);
 }
 
 /* Menu */
@@ -80,7 +80,7 @@ nav a {
     padding: 0em 1.5em 0em 1.5em;
     text-decoration: none;
     text-align: center;
-    text-shadow: .06em .06em 0em rgba(0,0,0,.2);
+    text-shadow: .04em .04em 0em rgba(0,0,0,.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-size: 1.25em;
@@ -179,7 +179,7 @@ aside {
 }
 
 aside section {
-    padding: 0em 1em 2.3em 0em;
+    padding: 0em 1.3em 2.3em 0em;
     margin: auto;
     max-width: 250px;
 }
@@ -233,4 +233,19 @@ footer p {
     padding: 0;
     position: absolute;
     width: 1px;
+}
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+    nav li {
+        display: inline-block;
+        width: 20%;
+    }
+}
+
+@media (min-width: 816px) {
+    aside section {
+        display: inline-block;
+    }
 }
