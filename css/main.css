@@ -163,7 +163,7 @@ article .entry {
     display: block;
     float: left;
     width: 7em;
-    padding: .4em .4em;
+    padding: .75em;
     margin-right: .7em;
     background: #222222;
     color: #ffffff;
@@ -201,8 +201,8 @@ aside li a {
 
 aside h3 {
     padding: 0em 0em .7em 0em;
-    letter-spacing: -.02em;
-    font-size: 1.8em;
+    letter-spacing: -.015em;
+    font-size: 1.9em;
     color: #222222;
 }
 
@@ -236,6 +236,12 @@ footer p {
 }
 
 /* Media Queries */
+
+@media (min-width: 450px) {
+    h3 {
+        font-size: 2.8em;
+    }
+}
 
 @media (min-width: 700px) {
     nav a {
