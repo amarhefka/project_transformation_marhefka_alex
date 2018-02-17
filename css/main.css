@@ -1,10 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFFFFF url(../img/img05.jpg) repeat;
+    background: #ffffff url(../img/img05.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #5B5B5B;
+    font-size: .875em;
+    color: #5b5b5b;
 }
 
 h1, h2, h3 {
@@ -33,13 +33,13 @@ p, ul, ol {
 }
 
 a {
-    color: #5E5E5E;
+    color: #5e5e5e;
 }
 
 /* Header */
 
 header {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -47,31 +47,29 @@ header {
 
 #logo {
     float: left;
-    width: 300px;
 }
 
 #logo h1 {
-    line-height: 120px;
-    letter-spacing: -2px;
+    line-height: 2.4em;
+    letter-spacing: -.03em;
     font-size: 3.8em;
 }
 
 #logo h1 a {
     text-decoration: none;
-    color: #1F1F1F;
-    text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+    color: #1f1f1f;
+    text-shadow: .02em .02em 0em rgba(0,0,0,.2);
 }
 
 /* Menu */
 
 nav {
     float: right;
-    width: 500px;
 }
 
 nav ul {
     float: right;
-    padding: 20px 0px 0px 0px;
+    padding: 1em 0em 0em 0em;
     list-style: none;
 }
 
@@ -81,54 +79,53 @@ nav li {
 
 nav a {
     display: block;
-    line-height: 100px;
-    margin-right: 1px;
-    padding: 0px 20px 0px 20px;
+    line-height: 6.5em;
+    margin-right: .15em;
+    padding: 0em 1.5em 0em 1.5em;
     text-decoration: none;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+    text-shadow: .06em .06em 0em rgba(0,0,0,.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 1.15em;
     font-weight: 300;
-    color: #1F1F1F;
+    color: #1f1f1f;
 }
 
 nav a:hover, nav .current_page_item a {
     background: url(../img/img01.jpg) repeat;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 #banner {
-    margin: 0px auto;
-    width: 1000px;
+    margin: 0 auto;
+    max-width: 1000px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
 /* Page */
 
 #page {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 2.2em 0em;
 }
 
 /* Content */
 
 main {
     float: right;
-    width: 660px;
-    padding: 0px 0px 0px 0px;
+    max-width: 660px;
 }
 
 article {
-    margin-bottom: 40px;
-    border-bottom: 1px solid #E7EBED;
+    margin-bottom: 2.8em;
+    border-bottom: .1em solid #e7ebed;
 }
 
 article .title {
-    padding: 7px 0px 0px 0px;
-    letter-spacing: -1px;
+    padding: .3em 0em 0em 0em;
+    letter-spacing: -.03em;
 }
 
 article .title a {
@@ -137,11 +134,11 @@ article .title a {
 }
 
 article .meta {
-    margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
+    margin-bottom: 1.8em;
+    padding: .8em 0em 0em 0em;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 1.15em;
     font-weight: 300;
 }
 
@@ -155,23 +152,23 @@ article .meta .posted {
 
 article .entry {
     clear: both;
-    padding: 16px 0px 40px 0px;
+    padding: 1.15em 0em 2.8em 0em;
     text-align: justify;
 }
 
 .links {
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding-top: 1.1em;
+    margin-bottom: 2.2em;
 }
 
 .more, .comments {
     display: block;
     float: left;
-    width: 88px;
-    padding: 5px 5px;
-    margin-right: 10px;
+    width: 7em;
+    padding: .4em .4em;
+    margin-right: .7em;
     background: #222222;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
 }
@@ -180,13 +177,12 @@ article .entry {
 
 aside {
     float: left;
-    width: 270px;
     margin: 0;
-    padding: 30px 0px 0px 0px;
+    padding: 2em 0em 0em 0em;
 }
 
 aside section {
-    padding-bottom: 30px;
+    padding-bottom: 2.3em;
 }
 
 aside ul {
@@ -195,19 +191,18 @@ aside ul {
 }
 
 aside li {
-    line-height: 40px;
-    border-bottom: 1px solid #E7EBED;
-    margin: 0px 0px;
+    line-height: 2.7em;
+    border-bottom: .1em solid #e7ebed;
 }
 
 aside li a {
-    padding: 0px 0px 0px 20px;
+    padding: 0em 0em 0em 1.2em;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 aside h3 {
-    padding: 0px 0px 30px 0px;
-    letter-spacing: -.5px;
+    padding: 0em 0em 1.5em 0em;
+    letter-spacing: -.02em;
     font-size: 1.8em;
     color: #222222;
 }
@@ -218,18 +213,16 @@ footer {
     background: #050505 url(../img/img01.jpg) repeat;
     clear: both;
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 4.5em 0em 3.3em 0em;
     font-family: 'Abel', sans-serif;
 }
 
 footer p {
-    padding-top: 10px;
-    letter-spacing: 1px;
+    letter-spacing: .09em;
     line-height: normal;
-    font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-    color: #5E5E5E;
+    color: #5e5e5e;
 }
 
 .visuallyhidden {
