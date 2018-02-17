@@ -112,8 +112,8 @@ nav a:hover, nav .current_page_item a {
 /* Content */
 
 main {
-    float: right;
-    max-width: 660px;
+    max-width: 720px;
+    margin: auto;
 }
 
 article {
@@ -174,16 +174,18 @@ article .entry {
 /* Sidebar */
 
 aside {
-    float: left;
-    margin: 0;
+    margin: auto;
+    max-width: 720px;
 }
 
 aside section {
-    padding-bottom: 2.3em;
+    padding: 0em 1em 2.3em 0em;
+    margin: auto;
+    max-width: 250px;
 }
 
 aside ul {
-    padding: 0;
+    padding-left: 1em;
     list-style: none;
 }
 
@@ -193,12 +195,12 @@ aside li {
 }
 
 aside li a {
-    padding: 0em 0em 0em 1.2em;
+    padding-left: 1.5em;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 aside h3 {
-    padding: 0em 0em 1.5em 0em;
+    padding: 0em 0em .7em 0em;
     letter-spacing: -.02em;
     font-size: 1.8em;
     color: #222222;
