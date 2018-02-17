@@ -260,14 +260,14 @@ footer p {
     }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1030px) {
     aside {
         float: left;
-        width: 30%;
+        width: 32%;
     }
     main {
         float: right;
-        width: 70%;
+        width: 68%;
     }
     #logo {
         display: inline-block;
@@ -285,6 +285,6 @@ footer p {
         padding-top: 0;
     }
     aside {
-        padding-top: 1.03em;
+        padding-top: 1em;
     }
 }
