@@ -56,14 +56,15 @@ header {
 
 /* Logo */
 
-#logo h1 {
+#logo {
+    display: block;
     line-height: 2.4em;
     letter-spacing: -.03em;
     font-size: 3.8em;
     text-align: center;
 }
 
-#logo h1 a {
+#logo a {
     text-decoration: none;
     color: #1f1f1f;
     text-shadow: .03em .03em 0em rgba(0,0,0,.2);
