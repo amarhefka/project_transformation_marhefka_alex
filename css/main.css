@@ -275,7 +275,16 @@ footer p {
     nav {
         float: right;
     }
+    nav ul {
+        padding: 1.1em 0em 0.2em 0em;
+    }
     nav li {
         width: inherit;
+    }
+    article .title {
+        padding-top: 0;
+    }
+    aside {
+        padding-top: 1.03em;
     }
 }
