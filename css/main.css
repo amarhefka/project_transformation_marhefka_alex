@@ -238,6 +238,9 @@ footer p {
 /* Media Queries */
 
 @media (min-width: 700px) {
+    nav a {
+        line-height: 5.75em;
+    }
     nav li {
         display: inline-block;
         width: 20%;
@@ -247,5 +250,25 @@ footer p {
 @media (min-width: 816px) {
     aside section {
         display: inline-block;
+    }
+}
+
+@media (min-width: 1100px) {
+    aside {
+        float: left;
+        width: 30%;
+    }
+    main {
+        float: right;
+        width: 70%;
+    }
+    #logo {
+        display: inline-block;
+    }
+    nav {
+        float: right;
+    }
+    nav li {
+        width: inherit;
     }
 }
