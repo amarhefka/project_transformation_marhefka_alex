@@ -150,21 +150,19 @@ article .meta .posted {
 
 article .entry {
     clear: both;
-    padding: 1.15em 0em 2.8em 0em;
+    padding: 1.15em 0em 1.8em 0em;
     text-align: justify;
 }
 
 .links {
     padding-top: 1.1em;
-    margin-bottom: 2.2em;
 }
 
 .more, .comments {
-    display: block;
-    float: left;
+    display: inline-block;
     width: 7em;
     padding: .75em;
-    margin-right: .7em;
+    margin-right: .5em;
     background: #222222;
     color: #ffffff;
     text-align: center;
