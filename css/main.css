@@ -50,6 +50,8 @@ a {
 header {
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 2.85em;
+    background: url(../img/img03.png) bottom/100% 10% no-repeat;
 }
 
 /* Logo */
